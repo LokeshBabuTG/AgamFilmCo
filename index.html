@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/resources/data.js"></script>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -43,7 +44,7 @@
 				<a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
 				<div class="inner">
 					<header>
-						<h2>JOE JOE JOE ipsum<br />
+						<h2>JO<br />
 						dolor sit amet</h2>
 					</header>
 					<p>Joe is also called Mighty Joe young From Mechanical...Tortor faucibus ullamcorper nec tempus purus sed penatibus. Lacinia pellentesque eleifend vitae est elit tristique velit tempus etiam.</p>
@@ -88,13 +89,13 @@
 		<!-- Contact -->
 			<article class="container box style3">
 				<header>
-					<h2>Nisl sed ultricies</h2>
+					<h2>Contact Us</h2>
 					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
 				</header>
-				<form method="post" action="#">
+				<form id="contactUsFormId" method="post" action="https://lokeshbabutg.pythonanywhere.com/postAgamFilmCoSendContactUsDetails">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" class="text" name="email" placeholder="Email" /></div>
+						<div class="col-6 col-12-mobile"><input type="text" class="text" name="contact" placeholder="Email" /></div>
 						<div class="col-12">
 							<textarea name="message" placeholder="Message"></textarea>
 						</div>
@@ -103,6 +104,9 @@
 								<li><input type="submit" value="Send Message" /></li>
 							</ul>
 						</div>
+					</div>
+					<div class="message">
+						
 					</div>
 				</form>
 			</article>
@@ -258,21 +262,45 @@
 
 		<section id="footer">
 			<ul class="icons">
-				<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+				<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 				<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
 				<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
 				<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 				<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon brands fa-envelope-square"><span class="label">Envelope</span></a></li>-->
 			</ul>
 			<div class="copyright">
 				<ul class="menu">
-					<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					<li>&copy; Agam Film Co. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
 		</section>
 
 		<!-- Scripts -->
+			<script id="socialMedia" type="text/x-handlebars-template">
+				{{#each this}}
+					<li>
+						<a href="{{this.href}}" target="_blank" title="{{this.text}}" class="icon brands fa-{{this.css}}">
+							<span class="label">
+								{{this.text}}
+							</span>
+						</a>
+					</li>
+				{{/each}}
+			</script>
+			
+			<script id="contactUsMessage" type="text/x-handlebars-template">
+				{{#if success}}
+					<i class="far fa-check-circle"></i>
+				{{else}}
+					<i class="fas fa-exclamation"></i>
+				{{/if}}
+				{{this.message}}
+			</script>
+			
+			<script src="assets/js/handlebars.js"></script>
+			
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
@@ -280,6 +308,9 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			
+			
 
 	</body>
 </html>

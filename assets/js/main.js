@@ -101,5 +101,57 @@
 			windowMargin: 10,
 			usePopupNav: true
 		});
+		
+		$("#contactUsFormId").submit(function() {
+			var form = $(event.target)
+			
+			var btn = form.find("input[type='submit']");
+			
+			var messageDiv = form.find(".message");
+			
+			btn.attr("disabled", true);
+			btn.val("Sending...");
+			
+			var arr = form.serializeArray();
+			var formData = {};
+			for(var i in arr)
+				formData[arr[i].name] = arr[i].value;
+			
+			var feedBackObject = {};
+			var buttonObject = {};
+			
+			$.getJSON( form.attr("action"), formData,  function(response) {
+				console.log( "success" );
+				form.find("input, textarea").val("");
+						
+				feedBackObject["message"] = "Thanks for your message, We will contact to Contact you back.";
+				feedBackObject["success"] = true;
+				
+			})
+			.done(function() {
+				console.log( "second success" );
+			})
+			.fail(function() {
+				console.log( "error" );
+				feedBackObject["message"] = "There is a Error Sending your message. Please Try Agan after Some time";
+				feedBackObject["success"] = false;
+				
+			})
+			.always(function() {
+				console.log( "complete" );
+				
+				messageDiv.populateFromTemplate("contactUsMessage", feedBackObject);
+				
+				setTimeout(function(){ messageDiv.text(""); }, 10000);
+				
+				btn.removeAttr("disabled");
+				btn.val("Send Message");
+			});
+			
+			
+			return false;
+		});
+		
+		
 
 })(jQuery);
