@@ -1,0 +1,5 @@
+mailId=agamfilmco@gmail.com
+whatsapp=https://wa.me/message/5UISCQSNBXTTL1
+twitter=https://twitter.com/agamfilm?s=08
+telegram=https://t.me/agamfilmco
+instagram=https://instagram.com/agamfilm.co?igshid=11gaalq7h0vg
