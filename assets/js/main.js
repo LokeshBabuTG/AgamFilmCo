@@ -96,7 +96,7 @@
 			overlayColor: '#0a1919',
 			overlayOpacity: 0.75,
 			usePopupDefaultStyling: false,
-			usePopupCaption: true,
+			usePopupCaption: false,
 			popupLoaderText: '',
 			windowMargin: 10,
 			usePopupNav: true
