@@ -2001,6 +2001,8 @@ input, select, textarea {
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
+		background-image: url(../../images/imgs/e.jpg);
+		background-size: cover;
 	}
 
 		#header header {

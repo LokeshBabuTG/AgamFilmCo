@@ -19,7 +19,7 @@
 			<section id="header">
 				<header>
 					<h1>Agam Film</h1>
-					<p>By GnanaPrakash</p>
+					<p>By Praveen.A</p>
 				</header>
 				<footer>
 					<a href="#banner" class="button style2 scrolly-middle">Proceed as anticipated</a>
@@ -29,11 +29,13 @@
 		<!-- Banner -->
 			<section id="banner">
 				<header>
-					<h2>This is Overflow</h2>
+					<h2>Christopher Nolan</h2>
 				</header>
-				<p>A brand new site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>.<br />
-				It’s responsive, built on HTML5/CSS3, and entirely free<br />
-				under the <a href="http://html5up.net/license">Creative Commons license</a>.</p>
+				<p>It's movie lovers' favourite puzzle that never got solved. 
+				The ending of Christopher Nolan's sci fi masterpiece Inception is 
+				still among the most confusing and most discussed in the world of cinema. 
+				An exceptional film by all measures, its end, however, is still the one thing 
+				that made the biggest impression.</p>
 				<footer>
 					<a href="#first" class="button style2 scrolly">Act on this message</a>
 				</footer>
@@ -90,7 +92,7 @@
 			<article class="container box style3">
 				<header>
 					<h2>Contact Us</h2>
-					<p>Diam dignissim lectus eu ornare volutpat orci.</p>
+					<!--<p>Diam dignissim lectus eu ornare volutpat orci.</p>-->
 				</header>
 				<form id="contactUsFormId" method="post" action="https://lokeshbabutg.pythonanywhere.com/postAgamFilmCoSendContactUsDetails">
 					<div class="row gtr-50">
@@ -102,6 +104,7 @@
 						<div class="col-12">
 							<ul class="actions">
 								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="reset" class="style3" value="Clear Form" /></li>
 							</ul>
 						</div>
 					</div>
@@ -281,10 +284,8 @@
 			<script id="socialMedia" type="text/x-handlebars-template">
 				{{#each this}}
 					<li>
-						<a href="{{this.href}}" target="_blank" title="{{this.text}}" class="icon brands fa-{{this.css}}">
-							<span class="label">
-								{{this.text}}
-							</span>
+						<a href="{{this.href}}" target="_blank" title="{{this.text}}" class="icon brands">
+							<i class="{{this.css}}"></i>
 						</a>
 					</li>
 				{{/each}}
