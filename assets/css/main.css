@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #183026;
+		background-color: #000000;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -2001,7 +2001,7 @@ input, select, textarea {
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
-		background-image: url(../../images/imgs/e.jpg);
+		background-image: url(../../images/imgs/m.jpg);
 		background-size: cover;
 	}
 
@@ -2355,8 +2355,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				background-color: #203936;
-				background-image: url("images/overlay.png"), url("../../images/bg-alt.jpg");
+				background-color: #000000;
 				background-repeat: repeat, no-repeat;
 				background-size: auto, 100% auto;
 				background-position: top left, top center;

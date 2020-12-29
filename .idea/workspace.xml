@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7b996b1c-26a1-4887-8238-1c6d99966b48" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -34,6 +37,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609137745185</updated>
       <workItem from="1609137746914" duration="4767000" />
+      <workItem from="1609234950547" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="color changes">
       <created>1609150084536</created>
@@ -42,7 +46,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609150084537</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding intellij files">
+      <created>1609234979774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609234979774</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,9 +69,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="color changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="color changes" />
+    <MESSAGE value="adding intellij files" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding intellij files" />
   </component>
 </project>
