@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b996b1c-26a1-4887-8238-1c6d99966b48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7b996b1c-26a1-4887-8238-1c6d99966b48" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +33,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609137745185</updated>
       <workItem from="1609137746914" duration="4767000" />
-      <workItem from="1609234950547" duration="2115000" />
+      <workItem from="1609234950547" duration="2421000" />
     </task>
     <task id="LOCAL-00001" summary="color changes">
       <created>1609150084536</created>
@@ -53,7 +49,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609234979774</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changing background">
+      <created>1609243253176</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609243253178</updated>
+    </task>
+    <task id="LOCAL-00004" summary="changing background colour">
+      <created>1609243371729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609243371730</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +84,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="color changes" />
     <MESSAGE value="adding intellij files" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding intellij files" />
+    <MESSAGE value="changing background" />
+    <MESSAGE value="changing background colour" />
+    <option name="LAST_COMMIT_MESSAGE" value="changing background colour" />
   </component>
 </project>
