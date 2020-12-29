@@ -84,7 +84,6 @@ input, select, textarea {
 
 	body {
 		background-color: #000000;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
