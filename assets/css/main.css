@@ -2000,7 +2000,6 @@ input, select, textarea {
 		margin: 0;
 		padding: 14em 0 14em 0;
 		cursor: default;
-		background-image: url(../../gifs/logo.mp4);
 		background-size: cover;
 	}
 
@@ -2070,6 +2069,17 @@ input, select, textarea {
 				margin-bottom: -33px;
 				background: url("images/arrow.svg") no-repeat;
 			}
+
+
+    #header video, #header video img {
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      z-index: -1;
+    }
 
 		body.is-preload #header {
 			opacity: 0;
