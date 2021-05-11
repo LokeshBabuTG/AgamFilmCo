@@ -1858,7 +1858,6 @@ input, select, textarea {
 					position: absolute;
 					top: 0;
 					height: 100%;
-					width: auto;
 				}
 
 			.box.style1 .inner > :last-child {
