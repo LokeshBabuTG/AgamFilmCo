@@ -588,9 +588,7 @@
 		$(this).html(Handlebars.compile($("#"+templateId).text())(data[templateId] ? data[templateId] : localData));
 	};
 	
-	//onLoad-start
-		$("#footer .icons").populateFromTemplate("socialMedia");
-	//onLoad-end
+	
 	
 
 })(jQuery);

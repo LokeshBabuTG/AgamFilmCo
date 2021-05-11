@@ -25,5 +25,47 @@ var data = {
 			css : "fab fa-instagram",
 			text : "Instagram"
 		}
-	}
+	},
+  castingTemplate : [
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+    {
+      src : "./../images/imgs/m.jpg",
+      name : "Jiana Thomas",
+      as : "Jiana Thomas"
+    },
+  ]
 }

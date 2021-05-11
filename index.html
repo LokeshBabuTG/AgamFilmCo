@@ -65,7 +65,8 @@
 
         <article id="first" class="container box style1 left">
 				  <a
-          href="./../images/imgs/p.jpg"
+          href="https://youtu.be/4GOUPWU37TE"
+          data-poptrox="youtube"
           class="image fit">
             <img src="./../images/imgs/o.jpg" alt="" />
           </a>
@@ -81,8 +82,8 @@
 			  </article>
 
         <article class="container box style1 right">
-				  <a href="#" class="image fit">
-            <img src="./../images/imgs/q.jpg" alt="" />
+				  <a href="./../images/imgs/q.jpg" class="image fit">
+            <img src="./../images/imgs/q.jpg" title="JOE MACLIN" />
           </a>
 				  <div class="inner">
 					  <header>
@@ -103,6 +104,17 @@
 			</article>
       </div>
 
+      <div id="casting" class="gallery">
+      <article class="container box style3">
+				<header>
+					<h2>Casting</h2>
+				</header>
+				<section>
+          	
+				</section>
+      </article>
+      </div>
+
 
       <article class="container box style3">
 				<header>
@@ -119,25 +131,25 @@
             </div>
           </div>
           <div class="row gtr-0">
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Sound Design</h3>
                 <p>Seenu</p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Banner</h3>
                 <p>Agam Film Company</p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Telecasting</h3>
                 <p>Tamil Short Cut</p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Dubbing</h3>
                 <p>Akshaya Studio</p>
@@ -145,7 +157,7 @@
             </div>
           </div>
           <div class="row gtr-0">
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Editor</h3>
                 <p>
@@ -155,7 +167,7 @@
                 </p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Action Choreography</h3>
                 <p>
@@ -165,13 +177,13 @@
                 </p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Music Composer</h3>
                 <p>Leo Vasanth</p>
               </header>
             </div>
-            <div class="col-3 col-6-mobile">
+            <div class="col-3 col-12-mobile">
               <header>
                 <h3>Cinematography</h3>
                 <p>
@@ -183,13 +195,13 @@
             </div>
           </div>
           <div class="row gtr-0">
-            <div class="col-6 col-6-mobile">
+            <div class="col-6 col-12-mobile">
               <header>
                 <h3>Sound Mixing & Sfx</h3>
                 <p>Vinoth Rajesh</p>
               </header>
             </div>
-            <div class="col-6 col-6-mobile">
+            <div class="col-6 col-12-mobile">
               <header>
                 <h3>Agam Film Co-Ordinator</h3>
                 <p>Sneha</p>
@@ -254,6 +266,7 @@
 				</form>
 			</article>
 
+    
 		<!-- Generic -->
 		<!--
 			<article class="container box style3">
@@ -401,7 +414,9 @@
 					</form>
 				</section>
 			</article>
-		-->
+
+      -->
+		
     
 		<section id="footer">
 			<ul class="icons">
@@ -432,6 +447,21 @@
 					<i class="fas fa-exclamation"></i>
 				{{/if}}
 				{{this.message}}
+			</script>
+
+      <script id="castingTemplate" type="text/x-handlebars-template">
+				<div class="row gtr-0">
+          {{#each this}}
+            <div class="col-3 col-12-mobile">
+              <header>
+                <a href="{{this.src}}" class="image fit">
+                  <img src="{{this.src}}" title="{{this.name}} as {{this.as}}" alt="" />
+                  </a>
+                <p>Praveen</p>
+              </header>
+            </div>
+          {{/each}}
+        </div>
 			</script>
 			
 			<script src="assets/js/handlebars.js"></script>

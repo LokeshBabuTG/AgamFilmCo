@@ -89,6 +89,8 @@
 
 		}
 
+    $("#casting section").populateFromTemplate("castingTemplate");
+
 	// Poptrox.
 		$('.gallery').poptrox({
 			useBodyOverflow: false,
@@ -99,9 +101,8 @@
 			popupLoaderText: '',
 			windowMargin: 10,
 			usePopupNav: true,
-      caption: null,
-      usePopupCaption: false,
-      popupCaptionHeight: 0
+      usePopupCaption : true,
+      popupBlankCaptionText : ''
 		});
 		
 		$("#contactUsFormId").submit(function() {
@@ -153,7 +154,9 @@
 			
 			return false;
 		});
-		
+
+    
+		$("#footer .icons").populateFromTemplate("socialMedia");
 		
 
 })(jQuery);
