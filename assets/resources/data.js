@@ -28,44 +28,44 @@ var data = {
 	},
   castingTemplate : [
     {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
+      src : "./../images/imgs/a.jpg",
+      name : "Vinoth Rajesh",
+      as : "Abc"
+    },
+    {
+      src : "./../images/imgs/b.jpg",
+      name : "Arjun Banware",
+      as : "Def"
+    },
+    {
+      src : "./../images/imgs/c.jpg",
+      name : "Eshwar",
+      as : "abc"
+    },
+    {
+      src : "./../images/imgs/d.jpg",
+      name : "Harsha",
+      as : "dasfd"
+    },
+    {
+      src : "./../images/imgs/e.jpg",
+      name : "Roshika",
       as : "Jiana Thomas"
     },
     {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
+      src : "./../images/imgs/f.jpg",
+      name : "Megha",
       as : "Jiana Thomas"
     },
     {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
+      src : "./../images/imgs/g.jpg",
+      name : "Shivalingam",
+      as : "sdas"
     },
     {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
-    },
-    {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
-    },
-    {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
-    },
-    {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
-    },
-    {
-      src : "./../images/imgs/m.jpg",
-      name : "Jiana Thomas",
-      as : "Jiana Thomas"
+      src : "./../images/imgs/h.jpg",
+      name : "Prashanth",
+      as : "Jiasfd"
     },
   ]
 }
