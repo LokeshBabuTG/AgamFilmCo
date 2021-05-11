@@ -93,13 +93,15 @@
 		$('.gallery').poptrox({
 			useBodyOverflow: false,
 			usePopupEasyClose: false,
-			overlayColor: '#0a1919',
+			overlayColor: '#000000',
 			overlayOpacity: 0.75,
 			usePopupDefaultStyling: false,
-			usePopupCaption: false,
 			popupLoaderText: '',
 			windowMargin: 10,
-			usePopupNav: true
+			usePopupNav: true,
+      caption: null,
+      usePopupCaption: false,
+      popupCaptionHeight: 0
 		});
 		
 		$("#contactUsFormId").submit(function() {
