@@ -2662,7 +2662,7 @@ input, select, textarea {
 	}
 
 
-.scroll-top {
+#scrollToTopBtn {
     width: 75px;
     height: 75px;
     position: fixed;
@@ -2671,7 +2671,7 @@ input, select, textarea {
     display: none;
     z-index: 100;
 }
-.scroll-top i {
+#scrollToTopBtn i {
     display: inline-block;
     color: #FFFFFF;
 }

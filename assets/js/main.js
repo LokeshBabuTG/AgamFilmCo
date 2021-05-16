@@ -163,13 +163,13 @@
 
     $(window).scroll(function () {
         if ($(this).scrollTop() > 100) {
-            $('.scroll-top').fadeIn();
+            $('#scrollToTopBtn').fadeIn();
         } else {
-            $('.scroll-top').fadeOut();
+            $('#scrollToTopBtn').fadeOut();
         }
     });
 
-    $('.scroll-top').click(function () {
+    $('#scrollToTopBtn').click(function () {
         $("html, body").animate({
             scrollTop: 0
         }, 500);
