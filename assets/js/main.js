@@ -162,11 +162,10 @@
 
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 100) {
+        if ($(this).scrollTop() > 100)
             $('#scrollToTopBtn').fadeIn();
-        } else {
+          else 
             $('#scrollToTopBtn').fadeOut();
-        }
     });
 
     $('#scrollToTopBtn').click(function () {
