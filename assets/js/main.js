@@ -104,6 +104,8 @@
       usePopupCaption : true,
       popupBlankCaptionText : ''
 		});
+
+    
 		
 		$("#contactUsFormId").submit(function() {
 			var form = $(event.target)
@@ -157,6 +159,22 @@
 
     
 		$("#footer .icons").populateFromTemplate("socialMedia");
+
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('.scroll-top').fadeIn();
+        } else {
+            $('.scroll-top').fadeOut();
+        }
+    });
+
+    $('.scroll-top').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 500);
+        return false;
+    });
 		
 
 })(jQuery);
